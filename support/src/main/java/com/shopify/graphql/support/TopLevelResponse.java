@@ -35,7 +35,7 @@ public class TopLevelResponse {
 
         if (errorsElement != null) {
             if (!errorsElement.isJsonArray()) {
-                throw new InvalidGraphQLException("'errors' entry in response must be an array");
+                throw new InvalidGraphQLException("'error1s' entry in response must be an array");
             }
             for (JsonElement error : errorsElement.getAsJsonArray()) {
                 errors.add(new Error(error.isJsonObject() ? error.getAsJsonObject() : new JsonObject()));
