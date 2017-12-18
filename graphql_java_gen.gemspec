@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "GraphQL java client code generator"
   spec.description   = %q{Generates java code based on the GraphQL schema to provide type-safe API for building GraphQL queries and using their responses.}
-  spec.homepage      = "https://github.com/Shopify/graphql_java_gen"
+  spec.homepage      = "https://github.com/aShaforostov/graphql_java_gen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z codegen/lib LICENSE.txt README.md`.split("\x0")
